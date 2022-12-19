@@ -40,8 +40,8 @@ function doInsertBox(){
 }
 function setDefault(){
   var tgst = SpreadsheetApp.getActiveSpreadsheet().getSheetByName("박스-밀크런-적재리스트");
-    tgst.getRange(1,1,100,20).setFontColor('#000000').setFontWeight('normal');
-    tgst.getRange(6,1,100,20).clear();
+    tgst.getRange(5,1,100,20).setFontColor('#000000').setFontWeight('normal');
+    tgst.getRange(5,1,100,20).clear();
     // var getLastRow = tgst.getLastRow();
     ui.alert('데이터 삭제 완료!')
 }
